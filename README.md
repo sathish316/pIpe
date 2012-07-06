@@ -12,13 +12,13 @@ To install:
 gem install pipe
 ```
 
-OR
-
-Gemfile:
+Add to Gemfile:
 
 ```
 gem 'pipe'
 ```
+
+### Source
 
 Source can be:
 
@@ -26,6 +26,8 @@ Source can be:
 2. Any xml/rss feed
 3. Any website with changes detected from html
 4. Twitter
+
+### Sink
 
 Events can be notified to:
 
@@ -35,6 +37,10 @@ Events can be notified to:
 4. Email, Instant Message, Text Message
 5. Twitter, Google Calendar, Todo lists etc
 
+### Filter
+
 pIpe has advanced filters and is not limited to one input and output.
 
-It is still a work in progress. To contribute fork and check out unfinished Sources, Sinks, Inputs, Outputs
+### Contribute
+
+pIpe is still a work in progress. To contribute fork and check out unfinished Sources, Sinks, Inputs, Outputs
