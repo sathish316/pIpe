@@ -1,4 +1,10 @@
 require "pipe/version"
+require 'json'
+require 'open-uri'
+require 'active_support'
+require 'net/http'
+require 'xmpp4r'
+# require 'xmpp4r-simple'
 
 module Pipe
   module Source
@@ -21,8 +27,14 @@ end
 
 module Pipe
   class Pipe
-    def initialize(source, filter, sink)
-      @source, @filter, @sink = source, filter, sink
+    def initialize(input, filter, output)
+      @input, @filter, @output = input, filter, output
+    end
+
+    def execute
+      data = @input.get
+      notify = data.any? {|datum| @filter.match?(datum)}
+      @output.post if notify
     end
   end
 end
