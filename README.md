@@ -6,6 +6,20 @@ pIpe is ifttt for websites/webservices linked to webservices/smartphones/laptops
 
 It is the ultimate in web automation. See [Hacker News Gtalk Alert](https://github.com/sathish316/pIpe/blob/master/examples/hacker_news_gtalk_alert.rb) for example
 
+To install:
+
+```
+gem install pipe
+```
+
+OR
+
+Gemfile:
+
+```
+gem 'pipe'
+```
+
 Source can be:
 
 1. Any json feed
