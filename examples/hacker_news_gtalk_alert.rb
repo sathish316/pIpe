@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # To execute with Gtalk outputs:
-# $ PIPE_GTALK_USER=abc PIPE_GTALK_PASS=def ruby examples/hacker_news_gtalk_alert.rb
+# $ PIPE_GTALK_USER=username PIPE_GTALK_PASS=password ruby examples/hacker_news_gtalk_alert.rb
 
 require 'rubygems'
 require 'pipe'
