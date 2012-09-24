@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "xmpp4r"
   # s.add_runtime_dependency "xmpp4r-simple"
 
+  s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
   s.add_development_dependency "fakeweb"
   s.add_development_dependency "mocha"
