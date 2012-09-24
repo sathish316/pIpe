@@ -36,25 +36,6 @@ source with Gtalk and Pushover notifications.
 
 To contribute, fork and check out unfinished Sources, Sinks, Inputs, Outputs
 
-### Settings
-
-In order to configure settings for the Gtalk plugin, you will need to set up
-two environment variables.
-
-For Gtalk
-```
-PIPE_GTALK_USER
-PIPE_GTALK_PASS
-```
-
-For Pushover
-
-```
-export PIPE_PUSHOVER_USER=?? get your pushover user key
-export PIPE_PUSHOVER_API=avQMA3QTZ5cBlBczoMK7bqNkExmi2p
-```
-
-
 ### Source
 
 Source can be:
@@ -77,3 +58,21 @@ Events can be notified to:
 ### Filter
 
 pIpe has advanced filters and will not be limited to one input and output.
+
+### Settings
+
+In order to configure settings for the Gtalk plugin, you will need to set up
+two environment variables.
+
+For Gtalk
+```
+PIPE_GTALK_USER
+PIPE_GTALK_PASS
+```
+
+For Pushover
+
+```
+PIPE_PUSHOVER_USER
+PIPE_PUSHOVER_API
+```
