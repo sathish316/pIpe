@@ -32,7 +32,7 @@ gem 'pipe'
 ### Contribute
 
 pIpe is still a work in progress and currently works only for JSON content
-source with Gtalk and Pushover notifications.
+source with Gtalk, Pushover and Growl notifications.
 
 To contribute, fork and check out unfinished Sources, Sinks, Inputs, Outputs
 
