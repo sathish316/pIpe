@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   # specify any dependencies here; for example:
   s.add_runtime_dependency "active_support"
   s.add_runtime_dependency "xmpp4r"
+  s.add_runtime_dependency "rb-appscript"
   # s.add_runtime_dependency "xmpp4r-simple"
 
   s.add_development_dependency "rake"
